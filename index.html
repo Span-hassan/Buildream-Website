@@ -1,0 +1,1978 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url(images/bg_1.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    background-color: #444a52;
+    display: flex;
+}
+
+.num{
+    width: 50%;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left:7%;
+    height: 100%;
+
+}
+
+.Emic{
+    width: 25%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+h3{
+    color: #f59031;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+.icons{
+    width: 18%;
+    height: 90%;
+    
+}
+
+a img{
+    width: 20%;
+    height: 90%;
+    margin-top: 4px;
+    background-color: #393e46;
+    border-radius: 10px;    
+}
+
+a:hover img{
+    background-color: #f59031;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 85px;
+    background-color: #393e46;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.name{
+    width: 25%;
+    height: 100%;
+    background-color: #f59031;
+    color: #444a52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5%;
+    transform: skewX(20deg);
+}
+
+
+h2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(-20deg);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+
+.menu{
+    width: 65%;
+    height: 100%;
+    margin-right: 5%;
+    color: #444a52;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+li a{
+    padding: 20px;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.Home{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(20deg);
+    background-color: #f59031;
+
+}
+
+
+.Home a{
+    margin-top: 25px;
+    transform: skewX(-20deg);
+}
+
+
+li:hover a{
+    color: #f59031;
+}
+
+.Home:hover a{
+    color: white;
+}
+
+
+/* --------------HERO SECTION-------------- */
+
+
+
+
+.bodybox{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    width: 25%;
+    height: 54%;
+    border: 6px solid #808080;
+    text-align: center;
+    color:white;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.txt{
+    width: 260%;
+    height: 80%;
+    position: absolute;
+    right: -80%;
+    transform: translate(-50,-50);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+.hapy{
+    color: #f59031;
+}
+
+
+
+
+
+.btn{
+    width:25% ;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.botn{
+    border: 1px solid;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #f59031;
+}
+
+.butn{
+    border: 1px solid;
+    width: 45%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    background-color: #393e46;
+}
+
+
+.btna{
+    color:#444a52;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnb{
+    font-size: 12px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.botn:hover{
+    transform: scale(1.1);
+
+}
+
+
+.butn:hover{
+    transform: scale(1.1);
+
+}
+/* --------HALF BODY COMPLETE-------- */
+
+
+.sectwo{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color:#f0ebeb;
+}
+
+
+.image{
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.exp{
+    position: absolute;
+    right: -5px;
+    bottom: 5px;
+
+    width: 100px;
+    height: 260px;
+
+    background-color: #363c45;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    
+    
+}    
+
+.nom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    transform: rotate(180deg);    
+}
+
+.year{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+
+
+.staff{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+
+}
+
+.textx{
+    width: 40%;
+    height: 100%;
+    /* background-color: #c9c5c5; */
+    padding-left: 10px;
+    
+}
+
+.wtb{
+    color: orangered;
+    font-weight: bold;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+
+h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+.para{
+    margin-top: 20px;
+     margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+        /* ---------BOX1--------- */
+
+
+.box1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.construction{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.photo{
+    width: 30%;
+    height: 100%;
+}
+
+.cons{
+    width: 80%;
+    height: 80%;
+}
+
+.co{
+    font-size: 25px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.word{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.architecture{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+        /* ---------BOX1--------- */
+
+.box2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.consulting{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.machenical{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    background-color:white;
+    border-radius: 10px;
+}
+
+             /* <!-- -------3rd section------- --> */
+
+
+.secthree{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:45px;
+}
+
+.tb{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #f59031;
+
+}
+
+.compain{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    color: #444a52;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.services{
+    width: 80%;
+    margin-top: 16px;
+    height: 80px;
+    display:flex ;
+    justify-content: space-evenly;
+}
+
+
+.cop1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cop1 img{
+    width: 60%;
+    height: 55px;
+}
+
+.A1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.cop2{
+    width: 10%;
+    height: 100%;
+}
+
+.cop2 img{
+    width: 80%;
+    height: 50px;
+}
+
+
+
+.cop3{
+    width: 10%;
+    height: 100%;
+
+}
+
+.cop3 img{
+    width: 80%;
+    height: 55px;
+}
+
+
+.cop4{
+    width: 10%;
+    height: 100%;
+}
+
+.cop4 img{
+    width: 60%;
+    height: 55px;
+}
+
+
+.cop5{
+    width: 10%;
+    height: 100%;
+}
+
+.cop5 img{
+    width: 60%;
+    height: 55px;
+}
+
+
+.cop6{
+    width: 10%;
+    height: 100%;
+}
+
+.cop6 img{
+    width: 60%;
+    height: 55px;
+}
+
+                    /* <!-- -------3rd section------- --> */
+
+
+.dev{
+    width:100%;
+    height: 25vh;
+    display: flex;
+}
+
+.write{
+    width:45%;
+    height: 100%;
+    background-color: #f59031;
+    display: flex;
+    margin-left: -45px;
+    transform: skewX(30deg);
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contect{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    transform: skewX(-30deg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.company{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transform: skewX(-30deg);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.daba{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.make{
+    padding: 15px;
+    background-color: #f59031;
+    border: none;
+    border-radius: 10px;
+}
+
+.make a{
+    
+    color: #363c45;
+}
+
+.make:hover{
+    transform: scale(1.1);
+}
+
+.fivesection{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.services-section {
+    width: 100%;
+    padding: 60px 0 100px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+
+.services-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services-heading h4 {
+    color: #c87800;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.services-heading h1 {
+    color: #363636;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.services-container {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+
+.services-image {
+    width: 50%;
+    min-height: 550px;
+
+    background-image: url("images/services.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+
+.service-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 30px;
+    min-height: 0;
+    flex: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.card-dark {
+    background-color: #3b3f47;
+    color: white;
+}
+
+
+.card-orange {
+    background-color: #ffa62b;
+    color: #343434;
+}
+
+
+.card-white {
+    background-color: white;
+    color: #343434;
+}
+
+
+.service-icon {
+    width: 52px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.service-icon i {
+    font-size: 43px;
+    font-weight: 300;
+}
+
+.card-dark .service-icon {
+    color: white;
+}
+
+.card-orange .service-icon {
+    color: #343434;
+}
+
+.card-white .service-icon {
+    color: #ffa62b;
+}
+
+
+.service-info h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 18px;
+}
+
+.service-info h4{
+     font-size: 24px;
+    font-weight: 400;
+    color: #393e46;
+    font-family: sans-serif;
+    margin-bottom: 18px;
+
+}
+
+.service-info p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.service-info button {
+    background-color: white;
+    color: #b56c00;
+    border: 1px solid #ffa62b;
+    padding: 7px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.sixsection{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+
+}
+
+.video-story{
+    width: 45%;
+    height: 50%;
+    margin-top: 20%;
+    
+}
+
+.video-story video{
+    width: 100%;
+    height: 100%;
+}
+
+.story-explain{
+    width: 45%;
+    height: 50%;
+    margin-top: 20%;
+    
+}
+
+.story-content {
+    width: 100%;
+    max-width: 570px;
+    padding: 5px 0;
+    
+}
+
+.story-subtitle {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #63778b;
+    margin-bottom: 5px;
+}
+
+.story-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #333b;
+    margin-bottom: 24px;
+}
+
+.story-description {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.85;
+    color: #363636;
+    margin-bottom: 30px;
+}
+
+.story-list {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.story-list li {
+    position: relative;
+    padding-left: 29px;
+    margin-bottom: 17px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #536c82;
+}
+
+.story-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 2px;
+    top: -1px;
+    font-family: sans-serif;
+    color: #ff991f;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.story-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+    padding: 0 24px;
+
+    background-color: #ffa321;
+    color: #17334b;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    transition: background-color 0.3s ease;
+}
+
+.story-button:hover {
+    background-color: #f3920b;
+}
+
+
+.sevensection{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+
+
+.stats-section {
+    width: 100%;
+
+    height: 40vh;
+    padding-top: 8%;
+    background:
+        linear-gradient(rgba(25, 29, 35, 0.72),
+                        rgba(25, 29, 35, 0.72)),
+        url("images/background_2");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.stat-box {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.stat-icon {
+    color: #ffa321;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.stat-info h4 {
+    color: #ffa321;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-info p {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+
+.eightsection{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+
+
+
+.team-cards {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.staff-card {
+    width: 25%;
+    background-color: #fff;
+
+    border-bottom:none;
+
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+
+
+.staff-image {
+    width: 100%;
+    height: 410px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.staff-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: 0.4s ease;
+}
+
+
+
+.staff-card:hover .staff-image img {
+    transform: scale(1.04);
+}
+
+
+.social-icons {
+    position: absolute;
+
+    left: 18px;
+    top: 70%;
+
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+}
+
+
+
+.staff-card:hover .social-icons {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.social-icons a {
+    width: 38px;
+    height: 38px;
+
+    background-color: #111;
+
+    color: #fff;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+
+.social-icons a:hover {
+    background-color: #f5a623;
+    color: #fff;
+}
+
+.staff-info {
+    height: 105px;
+
+    padding: 22px 15px;
+
+    text-align: center;
+
+    background-color: #fff;
+
+    transition: 0.3s ease;
+}
+
+.staff-card:hover .staff-info {
+    background-color: #f5a623;
+}
+
+.staff-info h3 {
+    margin: 0 0 12px;
+
+    color: #333;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    transition: 0.3s ease;
+}
+
+.staff-card:hover .staff-info h3 {
+    color: #fff;
+}
+
+.staff-info p {
+    margin: 0;
+
+    color: #999;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    transition: 0.3s ease;
+}
+
+.staff-card:hover .staff-info p {
+    color: #fff;
+}
+
+
+.ninesection{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+
+
+.portfolio-section {
+    width: 100%;
+    padding-top: 100px;
+    background-color: #fff;
+}
+
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-heading span {
+    display: block;
+    color: #f5a623;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.portfolio-heading h4 {
+    font-size: 40px;
+    color: #222;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+.portfolio-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.project-card {
+    width: 33.3333%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 30px;
+
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.75),
+        transparent 75%
+    );
+
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+
+
+.project-overlay span {
+    color: #f5a623;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+.project-overlay h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.tensection{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid;
+    background-color: white;
+}
+
+
+.pricing-section {
+    width: 100%;
+    margin-top: 18%;
+    font-family: sans-serif;
+    padding: 60px 10px;
+    background-color: #f8f8f8;
+}
+
+.pricing-container {
+    width: 100%;
+    display: flex;
+    gap: 22px;
+}
+
+
+.pricing-card {
+    width: 25%;
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 35px;
+    border: 1px solid transparent;
+}
+
+
+.pricing-card.popular {
+    border: 1px solid #ffa62a;
+}
+
+
+.popular-badge {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffa62a;
+    color: #222;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+
+.pricing-top {
+    text-align: center;
+    padding: 38px 20px 28px;
+}
+
+.pricing-top h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #343941;
+    margin-bottom: 18px;
+}
+
+.price {
+    color: #ae6500;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.price span {
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: top;
+    margin-right: 3px;
+}
+
+.pricing-top p {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #666;
+    font-size: 13px;
+}
+
+.features li span {
+    color: #ffa62a;
+    font-size: 20px;
+    margin-right: 13px;
+    font-weight: 400;
+}
+
+.features li.disabled {
+    color: #777;
+    text-decoration: line-through;
+}
+
+.features li.disabled span {
+    color: #aaa;
+}
+
+
+.quote-btn {
+    display: block;
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    margin: 40px auto 0;
+    text-align: center;
+    background-color: #ffa62a;
+    color: #222;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.quote-btn:hover {
+    background-color: #222;
+    color: white;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+
+    
+<div class="container">
+<div class="num"><h3>Free Call:</h3> &nbsp; +1 415 555 0142</div>
+<div class="Emic"><h3>Email Address:</h3> &nbsp; Info@example.com </div>
+<div class="icons"><a href="#"><img src="icons/twitter-brands-solid-full.svg" alt="tweeter"></a>
+<a href="#"><img src="icons/facebook-f-brands-solid-full.svg" alt="facebook"></a>
+<a href="#"><img src="icons/instagram-brands-solid-full.svg" alt="instagram"></a></div>
+
+</div>
+
+<div class="navbar">
+    <div class="name"><h2>BUILDREAM</h2></div>
+    <ul class="menu">
+    <li class="Home"><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contect</a></li>
+</ul>
+</div>
+
+
+
+
+
+<div class="bodybox">
+    <div class="text">------&nbsp;&nbsp;Since 1982&nbsp;&nbsp;------
+       <div class="txt"> WE WILL BE <span class="hapy">HAPPY</span> TO <br> TAKE CARE OF YOUR <br> WORK</div>
+    </div>
+    
+
+    <div class="btn"> <button class="botn"><a class="btna" href="#">CONTECT US →</a></button>
+         <button class="butn"><a class="btnb" href="#"> REQUEST A QUOTE →</a></button> </div>
+</div>
+                    <!-- -------2nd section------- -->
+
+
+
+<div class="sectwo">
+
+                    <!-- -------LEFT SIDE------- -->
+
+
+<div class="image"><img class="staff" src="images/about.avif" alt="staff">
+    <div class="exp">
+         <span class="nom">36</span>
+        <span class="year">Year of experiance</span>
+    </div></div>
+
+                    <!-- -------RIGHT SIDE------- -->
+
+<div class="textx"><p class="wtb">Welcome to Buildream</p>
+<h1>Quality and Affordable <br> Constructor</h1>
+<p class="para">Far far away, behind the word mountains, far from the countries Vokalia and
+     Consonantia, there live the blind texts.
+     Separated they live in Bookmarksgrove right at the coast of the Semantics,
+      a large language ocean.</p><h4>We Can Help You</h4>
+    <div class="box1">
+    
+      <div class="construction">
+        <div class="photo"><img src="icons/building-regular-full.svg" alt="sgz"></div>
+        <div class="cons"><span class="co">construction</span>
+            <br> <br> <span class="word">Far far away, behind the word mountains.</span></div>
+    </div>
+    <div class="architecture"><div class="photo"><img src="icons/table-cells-large-solid-full.svg" alt="sgz"></div>
+        <div class="cons"><span class="co">Architecture</span>
+            <br> <br> <span class="word">Far far away, behind the word mountains.</span></div></div>
+
+    
+    </div>
+
+<div class="box2">
+    <div class="consulting"><div class="photo"><img src="icons/headphones-regular-full.svg" alt="sgz"></div>
+        <div class="cons"><span class="co">Consulting</span>
+            <br> <br> <span class="word">Far far away, behind the word mountains.</span></div></div>
+    <div class="machenical"><div class="photo"><img src="icons/screwdriver-wrench-solid-full.svg" alt="sgz"></div>
+        <div class="cons"><span class="co">Machenical</span>
+            <br> <br> <span class="word">Far far away, behind the word mountains.</span></div></div>
+
+</div>
+
+
+</div>
+</div>
+
+
+                    <!-- -------3rd section------- -->
+
+<div class="secthree">
+    <div class="tb">Trusted By</div>
+    <div class="compain">Companies We've Worked With</div>
+    <div class="services">
+        <div class="cop1"><img src="icons/building-regular-full.svg" alt="svdv">
+            <span class="A1">Acp Corp</span></div>
+        <div class="cop2"><img src="icons/city-solid-full.svg" alt="svdv">
+            <span class="A1">City Dev</span></div>
+        <div class="cop3"><img src="icons/building-columns-solid-full.svg" alt="svdv">
+            <span class="A1">State Bank</span></div>
+        <div class="cop4"><img src="icons/hospital-solid-full.svg" alt="svdv">
+            <span class="A1">Metro Health</span></div>
+        <div class="cop5"><img src="icons/hotel-solid-full.svg" alt="svdv">
+            <span class="A1">Grand Hotels</span></div>
+        <div class="cop6"><img src="icons/industry-solid-full.svg" alt="svdv">
+            <span class="A1">Industrial co</span></div>
+    </div>
+</div>
+
+
+                    <!-- -------4th section------- -->
+
+<div class="dev">
+    <div class="write">
+        <span class="contect">You May Contact Us For Construction & Renovation Work</span>
+    <span class="company">We Are Great Construction <br> Company</span></div>
+    <div class="daba"><button class="make"><a href="##">MAKE AN APPOINMENT</a></button></div>
+</div>
+
+
+<div class="fivesection">
+
+<section class="services-section">
+
+    <div class="services-heading">
+        <h4>What We Do</h4>
+        <h1>Services</h1>
+    </div>
+
+    <div class="services-container">
+
+        <div class="services-image"></div>
+
+        <div class="services-content">
+
+            <div class="service-card card-dark">
+
+                <div class="service-icon">
+                    <i class="fa-regular fa-pen-to-square" style="color: rgb(255, 212, 59);"></i>
+                </div>
+
+                <div class="service-info">
+                    <h3>Construction Services</h3>
+
+                    <p>
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind.
+                    </p>
+
+                    <button>LEARN MORE</button>
+                </div>
+
+            </div>
+
+            <div class="service-card card-orange">
+
+                <div class="service-icon">
+                    <i class="fa-regular fa-building" style="color: rgb(27, 27, 26);"></i>
+                </div>
+
+                <div class="service-info">
+                    <h4>Infrastructure Services</h4>
+
+                    <p>
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind.
+                    </p>
+
+                    <button>LEARN MORE</button>
+                </div>
+
+            </div>
+
+            <div class="service-card card-white">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-user-graduate" style="color: rgb(16, 16, 15);"></i>
+                </div>
+
+                <div class="service-info">
+                    <h3>Architecture Services</h3>
+
+                    <p>
+                        Far far away, behind the word mountains,
+                        far from the countries Vokalia and Consonantia,
+                        there live the blind.
+                    </p>
+
+                    <button>LEARN MORE</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</div>
+
+
+<div class="sixsection">
+
+    <div class="video-story">
+        <video autoplay loop muted>
+         <source src="video/Building Construction Time Lapse Stock Video - Motion Array (720p, h264).mp4">
+    </video></div>
+    <div class="story-explain">
+
+            <section class="story-content">
+
+        <span class="story-subtitle">Watch Our Story</span>
+
+        <h1>
+            Building Dreams Into Reality Since 1982
+        </h1>
+
+        <p class="story-description">
+            See how we transform visions into structures that stand the test of time.
+            Our team of experts brings together innovation, quality, and dedication in
+            every project we undertake.
+        </p>
+
+        <ul class="story-list">
+            <li>Award-winning construction projects</li>
+            <li>Sustainable building practices</li>
+            <li>On-time, on-budget delivery</li>
+            <li>Safety-first approach</li>
+        </ul>
+
+        <a href="#about" class="story-button">
+            LEARN MORE ABOUT US
+        </a>
+
+    </section>
+
+
+
+    </div>
+
+</div>
+
+<div class="sevensection">
+
+    
+<section class="stats-section">
+    <div class="stats-container">
+
+        <div class="stat-box">
+            <div class="stat-icon">⚒</div>
+            <div class="stat-info">
+                <h4>3,000</h4>
+                <p>COMPLETED PROJECTS</p>
+            </div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-icon">⚒</div>
+            <div class="stat-info">
+                <h4>320</h4>
+                <p>HAPPY CLIENTS</p>
+            </div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-icon">⚒</div>
+            <div class="stat-info">
+                <h4>1,000</h4>
+                <p>CUP OF COFFEE</p>
+            </div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-icon">⚒</div>
+            <div class="stat-info">
+                <h4>587</h4>
+                <p>ENGINEERS &amp; STAFFS</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+</div>
+
+
+<div class="eightsection">
+
+
+<div class="team-cards">
+
+    <div class="staff-card">
+
+        <div class="staff-image">
+            <img src="images/staff-1.avif" alt="Lionel Wurtchbach">
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="staff-info">
+            <h3>Lionel Wurtchbach</h3>
+            <p>SENIOR ENGINEER</p>
+        </div>
+
+    </div>
+
+ <div class="staff-card">
+
+        <div class="staff-image">
+            <img src="images/staff-2.avif" alt="Mike Nintido">
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="staff-info">
+            <h3>Mike Nintido</h3>
+            <p>SENIOR ENGINEER</p>
+        </div>
+
+    </div>
+
+
+ <div class="staff-card">
+
+        <div class="staff-image">
+            <img src="images/staff-3.avif" alt="Bea Alam">
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="staff-info">
+            <h3>Bea Alam</h3>
+            <p>SENIOR ENGINEER</p>
+        </div>
+
+    </div>
+
+
+    <div class="staff-card">
+
+        <div class="staff-image">
+            <img src="images/staff-4.avif" alt="John Buffer">
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="staff-info">
+            <h3>John Buffer</h3>
+            <p>SENIOR ENGINEER</p>
+        </div>
+
+    </div>
+
+</div>
+</div>
+
+
+<div class="ninesection">
+
+    
+
+<section class="portfolio-section">
+
+    <div class="portfolio-heading">
+        <span>PORTFOLIO</span>
+        <h4>Projects</h4>
+    </div>
+
+    <div class="portfolio-container">
+
+        <div class="project-card">
+
+            <img src="images/work-1.avif"
+                 alt="Building Project">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <img src="images/work-2.avif"
+                 alt="Architecture Project">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="images/work-3.avif"
+                 alt="Construction Project">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <img src="images/work-4.avif"
+                 alt="Office Project">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+
+        <div class="project-card">
+
+            <img src="images/work-5.avif"
+                 alt="Modern Building">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="images/work-6.avif"
+                 alt="Building Design">
+
+            <div class="project-overlay">
+                <span>BUILDING</span>
+                <h3>High Tower Works</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+<div class="tensection">
+
+<section class="pricing-section">
+
+    <div class="pricing-container">
+
+        <div class="pricing-card">
+
+            <div class="pricing-top">
+                <h3>BASIC</h3>
+
+                <div class="price">
+                    <span>$</span>49K
+                </div>
+
+                <p>Small renovations</p>
+            </div>
+
+            <ul class="features">
+                <li><span>✓</span> Up to 500 sq ft</li>
+                <li><span>✓</span> Basic materials</li>
+                <li><span>✓</span> 2-week timeline</li>
+                <li><span>✓</span> 1-year warranty</li>
+                <li class="disabled"><span>×</span> Design consultation</li>
+                <li class="disabled"><span>×</span> Project manager</li>
+            </ul>
+
+            <a href="#" class="quote-btn">GET QUOTE</a>
+
+        </div>
+
+
+        <div class="pricing-card">
+
+            <div class="pricing-top">
+                <h3>STANDARD</h3>
+
+                <div class="price">
+                    <span>$</span>79K
+                </div>
+
+                <p>Home additions</p>
+            </div>
+
+            <ul class="features">
+                <li><span>✓</span> Up to 1,000 sq ft</li>
+                <li><span>✓</span> Quality materials</li>
+                <li><span>✓</span> 4-week timeline</li>
+                <li><span>✓</span> 2-year warranty</li>
+                <li><span>✓</span> Design consultation</li>
+                <li class="disabled"><span>×</span> Project manager</li>
+            </ul>
+
+            <a href="#" class="quote-btn">GET QUOTE</a>
+
+        </div>
+
+
+        <div class="pricing-card popular">
+
+            <div class="popular-badge">MOST POPULAR</div>
+
+            <div class="pricing-top">
+                <h3>PREMIUM</h3>
+
+                <div class="price">
+                    <span>$</span>109K
+                </div>
+
+                <p>Full home builds</p>
+            </div>
+
+            <ul class="features">
+                <li><span>✓</span> Up to 2,500 sq ft</li>
+                <li><span>✓</span> Premium materials</li>
+                <li><span>✓</span> 8-week timeline</li>
+                <li><span>✓</span> 5-year warranty</li>
+                <li><span>✓</span> Design consultation</li>
+                <li><span>✓</span> Dedicated project manager</li>
+            </ul>
+
+            <a href="#" class="quote-btn">GET QUOTE</a>
+
+        </div>
+
+
+        <div class="pricing-card">
+
+            <div class="pricing-top">
+                <h3>ENTERPRISE</h3>
+
+                <div class="price">
+                    <span>$</span>149K+
+                </div>
+
+                <p>Commercial projects</p>
+            </div>
+
+            <ul class="features">
+                <li><span>✓</span> Unlimited sq ft</li>
+                <li><span>✓</span> Custom materials</li>
+                <li><span>✓</span> Custom timeline</li>
+                <li><span>✓</span> 10-year warranty</li>
+                <li><span>✓</span> Full design team</li>
+                <li><span>✓</span> 24/7 support</li>
+            </ul>
+
+            <a href="#" class="quote-btn">CONTACT US</a>
+
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
